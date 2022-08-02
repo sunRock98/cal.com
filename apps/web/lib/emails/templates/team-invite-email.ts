@@ -49,7 +49,7 @@ export default class TeamInviteEmail {
   protected getNodeMailerPayload(): Record<string, unknown> {
     return {
       to: this.teamInviteEvent.to,
-      from: `Cal.com <${this.getMailerOptions().from}>`,
+      from: `Matsharing <${this.getMailerOptions().from}>`,
       subject: this.teamInviteEvent.language("user_invited_you", {
         user: this.teamInviteEvent.from,
         team: this.teamInviteEvent.teamName,
