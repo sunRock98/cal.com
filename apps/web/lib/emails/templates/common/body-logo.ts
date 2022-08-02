@@ -22,8 +22,8 @@ export const emailBodyLogo = (): string => {
                         <tbody>
                           <tr>
                             <td style="width:89px;">
-                              <a href="${BASE_URL}" target="_blank">
-                                <img height="19" src="${image}" style="border:0;display:block;outline:none;text-decoration:none;height:19px;width:100%;font-size:13px;" width="89" />
+                              <a href="${BASE_URL + "/book"}" target="_blank">
+                                <b>MATSHARING</b>
                               </a>
                             </td>
                           </tr>
